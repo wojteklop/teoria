@@ -1,0 +1,10 @@
+  table, th, td, tr {
+            margin: auto;    
+            border: solid;    
+            background-color: violet;
+            padding: inherit;
+            text-align: center;
+            }
+.suma {
+    background-color: red;
+}

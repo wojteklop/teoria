@@ -18,19 +18,25 @@
               <tr>
             <td>koks</td>
             <td>1</td>
-            <td class=cena>5</td>
+            <td id=cena1> 5 </td>
             </tr>
               <tr>
             <td>wungiel</td>
             <td>1</td>
-            <td class=cena>5</td>
+            <td id=cena2> 5 </td>
             </tr>
             <tr>
-            <td>suma=</td>
+            <td colspan="3"><button onclick="suma()">Poznaj cenę sumy produktów</button></td>
             </tr>
         </table>
-        
-        
+        <script>
+        function suma(){
+            let a=document.getElementById("cena1").value
+            let b=document.getElementById("cena2").value 
+            let x = a+b
+            alert( x +"zł" ) 
+        }
+        </script>
         
  
     </body>    
